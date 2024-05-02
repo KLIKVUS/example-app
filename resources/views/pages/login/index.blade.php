@@ -14,7 +14,7 @@
                     <label
                         for="login"
                         class="form-label"
-                    >Логин:</label>
+                    >Логин: <span class="text-danger">*</span></label>
                     <input
                         type="text"
                         name="login"
@@ -31,7 +31,7 @@
                     <label
                         for="password"
                         class="form-label"
-                    >Пароль:</label>
+                    >Пароль: <span class="text-danger">*</span></label>
                     <input
                         type="password"
                         name="password"
